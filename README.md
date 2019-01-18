@@ -17,7 +17,9 @@ RUN conda install -c bioconda pbmm2 && \
 ```
 
 [pbsv](https://github.com/pacificbiosciences/pbsv/)
+
 [pbmm2](https://github.com/PacificBiosciences/pbmm2/)
+
 [PacBio Secondary Analysis Tools on Bioconda](https://github.com/PacificBiosciences/pbbioconda)
 
 ## Disclaimer/Copyright
