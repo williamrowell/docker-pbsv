@@ -1,22 +1,26 @@
 # docker-pbsv
 
 ## Usage
+
 ```bash
 docker pull williamrowell/docker-pbsv
 docker run -i -t williamrowell/docker-pbsv /bin/bash
 ```
 
 ## Dockerfile
+
 ```dockerfile
 FROM continuumio/miniconda3
 
 RUN conda install -c bioconda pbmm2 && \
-    conda install -c bioconda pbccs && \
     conda install -c bioconda pbsv
 ```
 
+[pbsv](https://github.com/pacificbiosciences/pbsv/)
+[pbmm2](https://github.com/PacificBiosciences/pbmm2/)
+[PacBio Secondary Analysis Tools on Bioconda](https://github.com/PacificBiosciences/pbbioconda)
 
-Disclaimer/Copyright
+## Disclaimer/Copyright
 
 © Copyright Pacific Biosciences of California, Inc. All rights reserved. Pacific Biosciences, the Pacific Biosciences logo, PacBio, SMRT, SMRTbell, Iso-Seq and Sequel are trademarks of Pacific Biosciences. All other trademarks are the sole property of their respective owners. Certain notices, terms, conditions and/or use restrictions may pertain to your use of Pacific Biosciences products and/or third party products. Please refer to the applicable Pacific Biosciences Terms and Conditions of Sale and to the applicable license terms at http://www.pacb.com/legal-and-trademarks/product-license-and-use-restrictions/. Information herein is subject to change without notice. Pacific Biosciences assumes no responsibility for any errors or omissions herein.
 
