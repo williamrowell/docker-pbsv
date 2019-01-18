@@ -7,6 +7,15 @@ docker pull williamrowell/docker-pbsv
 docker run -i -t williamrowell/docker-pbsv /bin/bash
 ```
 
+## Build locally (if you want to modify the Dockerfile)
+
+```bash
+git clone https://github.com/williamrowell/docker-pbsv.git
+cd docker-pbsv
+# edit Dockerfile if desired
+docker build -t docker-pbsv .
+```
+
 ## Dockerfile
 
 ```dockerfile
